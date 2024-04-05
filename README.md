@@ -37,8 +37,7 @@ This project focuses on telling a story using data visualizations. Our group cho
        - Flask API: Develop interactive API routes using Flask to serve back Python or JavaScript-created plots. Enable users to request specific data subsets or customize the visualizations according to their preferences.
        - Filtered Data Visualization: Enable users to select and filter the data interactively, guiding them through the process step by step. Provide intuitive controls and feedback to enhance the user experience.
    
-## Resources
-- Finding Data:
+## Finding Data
 
 [data.worldLinks to an external site.](https://data.world/)
 
