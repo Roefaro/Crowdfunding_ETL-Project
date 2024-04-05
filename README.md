@@ -38,9 +38,19 @@ This project focuses on telling a story using data visualizations. Our group cho
        - Filtered Data Visualization: Enable users to select and filter the data interactively, guiding them through the process step by step. Provide intuitive controls and feedback to enhance the user experience.
    
 ## Resources
-- Pandas Documentation: [Link](https://pandas.pydata.org/docs/)
-- QuickDBD for ERD Sketching: [Link](https://www.quickdatabasediagrams.com/)
-- Python Regular Expressions: [Link](https://docs.python.org/3/library/re.html)
+- Finding Data:
+
+[data.worldLinks to an external site.](https://data.world/)
+
+[KaggleLinks to an external site.](https://www.kaggle.com/)
+
+[Data.govLinks](https://data.gov/) 
+
+[Awesome Public DatasetsLinks to an external site.](https://github.com/awesomedata/awesome-public-datasets)
+
+[Public-APIsLinks to an external site.](https://github.com/Kikobeats/awesome-api)
+
+[Awesome APILinks to an external site.](https://benjo-li.medium.com/a-curated-collection-of-over-150-apis-to-build-great-products-fdcfa0f361bc)
 
 ### Versions Used
 - Python: 3.9.7
