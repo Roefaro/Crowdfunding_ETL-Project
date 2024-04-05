@@ -1,37 +1,42 @@
-# Crowdfunding_ETL_Project
+# Project 3
 
-Project 2
+# *Voices at Risk Exploring the Crisis of Endangered Languages*
 ---
 
-# ETL Mini Project
 
-## Overview
-This ETL (Extract, Transform, Load) mini project involves building an ETL pipeline using Python, Pandas, and Python dictionary methods. The pipeline extracts and transforms data from Excel files and creates CSV files and a PostgreSQL database based on the transformed data.
+## Project Overview: Data Visualization Track
 
-## Repository Setup
-1. **Clone the Repository**: Clone the repository to your computer:
-    ```
-    git clone <repository_url>
-    ```
+### *Project Description*
 
-2. **Repository Creation**: One member of the group should create a new repository named `Crowdfunding_ETL` for this project. Add your partner as a collaborator. Do not add this project to an existing repository.
+This project focuses on telling a story using data visualizations. Our group chose to explore `Endangered Languages`. We aimed to uncover insights and trends within the data and present them through interactive visualizations. Our project includes a variety of visualizations created using Python libraries such as Matplotlib, Pandas plotting, and Plotly. The data is stored in a PostgreSQL database and extracted using SQLAlchemy. 
 
-3. **File Setup**: Rename the `ETL_Mini_Project_starter_code.ipynb` file with the first name initial and last name of each member of the group (e.g., `ETL_Mini_Project_NRomanoff_JSmith.ipynb`). Add this Jupyter notebook file and the `Resources` folder containing `crowdfunding.xlsx` and `contacts.xlsx` files to your repository.
+## Installation and Usage
 
-4. **GitHub Setup**: Push the changes to GitHub and have your partner pull the changes so both of you have the same notebook available on your computer.
-
+- Clone this repository to your local machine.
+- Ensure you have Python and PostgreSQL installed.
+- Create a virtual environment and install the required dependencies listed in requirements.txt.
+- Run the Flask application using python app.py.
+- Access the web application through your browser and interact with the visualizations.
+  
 ## Project Details
 
-1. **Data Extraction and Transformation**: Extract and transform data from Excel files (`crowdfunding.xlsx` and `contacts.xlsx`) using Python, Pandas, and either Python dictionary methods or regular expressions.
+1. **Data and Delivery**:  
+ - `Dataset Creation`: Utilize data from various sources to compile a dataset containing at least 100 unique records. 
+ - `Database Setup`: Create a database using PostgreSQL to store the dataset. Design the database schema to efficiently organize and manage the data.
 
-2. **CSV File Creation**: Create four CSV files based on the transformed data:
-   - `category.csv`: Contains category information.
-   - `subcategory.csv`: Contains subcategory information.
-   - `campaign.csv`: Contains campaign information.
-   - `contacts.csv`: Contains contact information.
+2. **Visualizations**: Create four CSV files based on the transformed data:
+ - `Unique Views Creation`: Develop at least three distinct visualizations to present the data. These visualizations should offer different perspectives on the dataset and highlight various insights.
+ - `Clear Presentation`: Ensure that the visualizations are presented in a clear and easily understandable manner. Use appropriate labels, titles, and colors to enhance readability and comprehension.
+ - `Interpretability`: Design the visualizations to be easily interpretable by users of all levels. Provide explanations or tooltips where necessary to clarify any complex or unfamiliar aspects of the data.
 
-3. **Database Creation**: Sketch an ERD (Entity-Relationship Diagram) based on the transformed data and create a PostgreSQL database (`crowdfunding_db`). Import the CSV files into their corresponding tables.
-
+3. **Usability**:
+  - `Error-Free Showcase`: Create a script, notebook, or webpage to showcase the data visualizations. Test the functionality thoroughly to ensure that it runs without errors on different platforms and browsers.
+  - `Library Integration`: Incorporate a Python or JavaScript library not covered in class to enhance the project's functionality and visual appeal. This library should complement the existing tools and contribute to the overall user experience.
+  - `User-Driven Interaction`:
+       - HTML/JavaScript: Implement menus, dropdowns, or textboxes on the webpage to allow users to interact with the visualizations dynamically. Use JavaScript to update the visualizations based on user inputs.
+       - Flask API: Develop interactive API routes using Flask to serve back Python or JavaScript-created plots. Enable users to request specific data subsets or customize the visualizations according to their preferences.
+       - Filtered Data Visualization: Enable users to select and filter the data interactively, guiding them through the process step by step. Provide intuitive controls and feedback to enhance the user experience.
+   
 ## Resources
 - Pandas Documentation: [Link](https://pandas.pydata.org/docs/)
 - QuickDBD for ERD Sketching: [Link](https://www.quickdatabasediagrams.com/)
